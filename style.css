@@ -1,0 +1,53 @@
+/* 部门背景颜色 */
+.tech-dept {
+    background-color: #e0f7e9;
+    padding: 20px;
+}
+
+.marketing-dept {
+    background-color: #e3f2fd;
+    padding: 20px;
+}
+
+.hr-dept {
+    background-color: #ffe0b2;
+    padding: 20px;
+}
+
+/* 特定员工卡片样式 */
+#special-employee {
+    border: 2px solid #8e24aa;
+    background-color: #f5f5f5;
+}
+
+/* 部门员工卡片通用样式 */
+.tech-dept .employee-card,
+.marketing-dept .employee-card {
+    color: #424242;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* 多部门通用样式 */
+.tech-dept, .marketing-dept {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* 鼠标悬停样式 */
+.employee-card:hover {
+    background-color: #fff9c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 奇数员工卡片背景色 */
+.employee-card:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+/* 高绩效员工悬停样式 */
+.high-rating:hover {
+    color: #ffd700;
+    font-weight: bold;
+    text-decoration: underline;
+}
